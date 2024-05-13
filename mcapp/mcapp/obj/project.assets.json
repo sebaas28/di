@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sebastian Jivkov Bey\\source\\repos\\mcapp\\mcapp\\mcapp.csproj",
+      "projectUniqueName": "C:\\Users\\Sebastian Jivkov Bey\\Documents\\di\\mcapp\\mcapp\\mcapp.csproj",
       "projectName": "mcapp",
-      "projectPath": "C:\\Users\\Sebastian Jivkov Bey\\source\\repos\\mcapp\\mcapp\\mcapp.csproj",
+      "projectPath": "C:\\Users\\Sebastian Jivkov Bey\\Documents\\di\\mcapp\\mcapp\\mcapp.csproj",
       "packagesPath": "C:\\Users\\Sebastian Jivkov Bey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sebastian Jivkov Bey\\source\\repos\\mcapp\\mcapp\\obj\\",
+      "outputPath": "C:\\Users\\Sebastian Jivkov Bey\\Documents\\di\\mcapp\\mcapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sebastian Jivkov Bey\\AppData\\Roaming\\NuGet\\NuGet.Config",
