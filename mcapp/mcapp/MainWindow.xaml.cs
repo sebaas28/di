@@ -20,5 +20,11 @@ namespace mcapp
         {
             InitializeComponent();
         }
+        private void login_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 w1 = new Window1();
+            w1.Show();
+            this.Close();
+        }
     }
 }

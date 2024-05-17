@@ -20,3 +20,79 @@ C:\Users\Sebastian Jivkov Bey\source\repos\mcapp\mcapp\obj\Debug\net8.0-windows\
 C:\Users\Sebastian Jivkov Bey\source\repos\mcapp\mcapp\obj\Debug\net8.0-windows\ref\mcapp.dll
 C:\Users\Sebastian Jivkov Bey\source\repos\mcapp\mcapp\obj\Debug\net8.0-windows\Window1.g.cs
 C:\Users\Sebastian Jivkov Bey\source\repos\mcapp\mcapp\obj\Debug\net8.0-windows\Window1.baml
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\Window1.g.cs
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp_MarkupCompile.cache
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp_MarkupCompile.lref
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.dll
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\refint\mcapp.dll
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.pdb
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.exe
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.deps.json
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.runtimeconfig.json
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.dll
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.pdb
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\Window1.baml
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.g.resources
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.AssemblyInfoInputs.cache
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.AssemblyInfo.cs
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.csproj.CoreCompileInputs.cache
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.genruntimeconfig.cache
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\obj\Debug\net8.0-windows\ref\mcapp.dll
+C:\Users\Sebas\Documents\DI\mcapp\mcapp\bin\Debug\net8.0-windows\fondo.png
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.exe
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.deps.json
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.runtimeconfig.json
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.dll
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.pdb
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\Window1.g.cs
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp_MarkupCompile.cache
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp_MarkupCompile.lref
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\Window1.baml
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.g.resources
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.AssemblyInfoInputs.cache
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.AssemblyInfo.cs
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.dll
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\refint\mcapp.dll
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.pdb
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.genruntimeconfig.cache
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\ref\mcapp.dll
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\info.g.cs
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\info.baml
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\Dimensiones.g.cs
+C:\Users\Sebastian Jivkov Bey\Desktop\mcapp\mcapp\obj\Debug\net8.0-windows\Dimensiones.baml
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.exe
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.deps.json
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.runtimeconfig.json
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.dll
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\bin\Debug\net8.0-windows\mcapp.pdb
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\Dimensiones.g.cs
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\Info.g.cs
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\Window1.g.cs
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp_MarkupCompile.cache
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp_MarkupCompile.lref
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\Dimensiones.baml
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\Info.baml
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\Window1.baml
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.g.resources
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.AssemblyInfoInputs.cache
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.AssemblyInfo.cs
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.sourcelink.json
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.dll
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\refint\mcapp.dll
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.pdb
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.genruntimeconfig.cache
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\ref\mcapp.dll
