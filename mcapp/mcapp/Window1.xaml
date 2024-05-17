@@ -5,27 +5,79 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:mcapp"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Title="Window1" Height="768" Width="1024">
+    <Window.Background>
+        <ImageBrush ImageSource="img/fondo.png"/>
+    </Window.Background>
     <Grid>
-        <TextBox AcceptsReturn="True" Name="bloqueTxt" SelectionChanged="CambioDeSeccion" MaxLength="350"/>
-        <StatusBar DockPanel.Dock="Bottom">
-            <StatusBarItem>
-                <TextBlock Name="posicionCursor" />
-            </StatusBarItem>
-            <StatusBarItem>
-                <ProgressBar Value="80" Width="90" Height="16" Name="barraDeProgreso" RenderTransformOrigin="0.5,0.5">
-                    <ProgressBar.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform Angle="-1.051"/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </ProgressBar.RenderTransform>
-                </ProgressBar>
-            </StatusBarItem>
-        </StatusBar>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
+        <StackPanel Grid.Row="0" Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Right" Height="117" Width="195">
+            <Button Content="Créditos!" FontSize="40" FontWeight="Bold" HorizontalAlignment="Center" Margin="10" Click="Creditos_Click"/>
+        </StackPanel>
 
+        <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Background="Black">
+            <TextBlock FontSize="140" Text="MC APP"
+                   HorizontalAlignment="Center"
+                   FontFamily="Impact" Foreground="Orange"/>
+        </StackPanel>
+
+        <StackPanel x:Name="sp_Login" Grid.Row="1" Grid.Column="1" Background="#7FFFFFFF" VerticalAlignment="Center">
+            <TextBlock Text="Bienvenido a McApp!" FontSize="40" FontWeight="Bold"/>
+            <TextBlock Text="Inicie sesión:" FontSize="40" FontWeight="Bold"/>
+            <StackPanel HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Margin="50">
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="1">
+                    <TextBlock Text="User: " FontSize="35" FontWeight="Bold"/>
+                    <TextBox x:Name="tb_loginUsuario" Width="300" BorderBrush="Black" Background="Transparent" BorderThickness="2,2,2,2" SnapsToDevicePixels="True"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="1">
+                    <TextBlock Text="Pass: " FontSize="35" FontWeight="Bold"/>
+                    <PasswordBox x:Name="pb_loginPass" Width="300" BorderBrush="Black" Background="Transparent" BorderThickness="2,2,2,2" SnapsToDevicePixels="True"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Accede" FontSize="40" FontWeight="Bold" HorizontalAlignment="Center" Margin="10" Click="ENTRAR_Click"/>
+                    <Button Content="Regístrate" FontSize="40" FontWeight="Bold" HorizontalAlignment="Center" Margin="10" Click="Registrar_Click"/>
+
+                </StackPanel>
+
+            </StackPanel>
+        </StackPanel>
+        <StackPanel x:Name="sp_Registro" Visibility="Collapsed" Grid.Row="1" Grid.Column="1" Background="#7FFFFFFF" VerticalAlignment="Center">
+            <TextBlock Text="Introduce tus datos:" FontSize="35" FontWeight="Bold"/>
+            <StackPanel HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Margin="50">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="1">
+                    <TextBlock Text="Nuevo Usuario: " FontSize="22" FontWeight="Bold"/>
+                    <TextBox x:Name="tb_nuevoNick" Width="250" BorderBrush="Black" Background="Transparent" BorderThickness="2,2,2,2" SnapsToDevicePixels="True"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="1" HorizontalAlignment="Right">
+                    <TextBlock Text="Nueva Contraseña: " FontSize="22" FontWeight="Bold"/>
+                    <PasswordBox x:Name="pb_nuevaContra" Width="250" BorderBrush="Black" Background="Transparent" BorderThickness="2,2,2,2" SnapsToDevicePixels="True"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="1" HorizontalAlignment="Right">
+                    <TextBlock Text="Confirmar Contraseña: " FontSize="22" FontWeight="Bold"/>
+                    <PasswordBox x:Name="pb_confirmarNuevaContra" Width="250" BorderBrush="Black" Background="Transparent" BorderThickness="2,2,2,2" SnapsToDevicePixels="True"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Volver" FontSize="40" FontWeight="Bold" HorizontalAlignment="Center" Margin="10" Click="VolverALogin_Click"/>
+                    <Button Content="Registrar" FontSize="40" FontWeight="Bold" HorizontalAlignment="Center" Margin="10" Click="Registrado_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>

@@ -23,15 +23,31 @@ namespace mcapp
         {
             InitializeComponent();
         }
-        private void CambioDeSeccion(object sender, RoutedEventArgs e)
+        private void Registrar_Click(object sender, RoutedEventArgs e)
         {
-            int row = bloqueTxt.GetLineIndexFromCharacterIndex(bloqueTxt.CaretIndex);
-            int col = bloqueTxt.CaretIndex - bloqueTxt.GetCharacterIndexFromLineIndex(row);
-            posicionCursor.Text = "Linea: " + (row + 1) + ", Columna: " + (col + 1);
-            barraDeProgreso.Value = bloqueTxt.Text.Length * 100 / bloqueTxt.MaxLength;
+            sp_Login.Visibility = Visibility.Collapsed;
+            sp_Registro.Visibility = Visibility.Visible;
         }
-
-
-
+        private void VolverALogin_Click(object sender, RoutedEventArgs e)
+        {
+            sp_Registro.Visibility = Visibility.Collapsed;
+            sp_Login.Visibility = Visibility.Visible;
+        }
+        private void ENTRAR_Click(object sender, RoutedEventArgs e)
+        {
+                MainWindow mw = new MainWindow();
+                mw.Show();
+                this.Close();
+        }
+        private void Registrado_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Te has registrado correctamente!");    
+        }
+        private void Creditos_Click(object sender, RoutedEventArgs e)
+        {
+            Info i = new Info();
+            i.Show();
+            this.Close();
+        }
     }
 }
