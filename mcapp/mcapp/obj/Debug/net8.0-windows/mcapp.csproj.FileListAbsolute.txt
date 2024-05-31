@@ -96,3 +96,9 @@ C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\
 C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.pdb
 C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp.genruntimeconfig.cache
 C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\ref\mcapp.dll
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\bin\Debug\net8.0-windows\img\logo.png
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\mcapp_Content.g.cs
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\bin\Debug\net8.0-windows\img\menu_man.png
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\bin\Debug\net8.0-windows\img\menu_sai.png
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\productos.g.cs
+C:\Users\Sebastian Jivkov Bey\Documents\di\mcapp\mcapp\obj\Debug\net8.0-windows\productos.baml

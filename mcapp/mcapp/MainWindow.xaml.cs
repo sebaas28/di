@@ -26,5 +26,10 @@ namespace mcapp
             w1.Show();
             this.Close();
         }
+        private void dimensiones(object sender, RoutedEventArgs e) {
+            Dimensiones dimensiones = new Dimensiones();
+            dimensiones.Show();
+            this.Close();
+        }
     }
 }

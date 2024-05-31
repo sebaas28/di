@@ -5,50 +5,166 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:mcapp"
         mc:Ignorable="d"
-        Title="Dimensiones" Height="450" Width="800">
+        Title="Dimensiones" Height="768" Width="1024">
     <Grid>
-        <StackPanel Margin="15">
-            <WrapPanel>
-                <TextBlock Text="Window title:  " />
-                <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" Width="150" />
-            </WrapPanel>
-            <WrapPanel Margin="0,10,0,0">
-                <TextBlock Text="Window dimensions: " />
-                <TextBox Text="{Binding Width}" Width="60" />
-                <TextBlock Text=" x " />
-                <TextBox Text="{Binding Height}" Width="60" />
-            </WrapPanel>
-            <TabControl TabStripPlacement="Left">
-                <TabControl.Resources>
-                    <Style TargetType="{x:Type TabItem}">
-                        <Setter Property="HeaderTemplate">
-                            <Setter.Value>
-                                <DataTemplate>
-                                    <ContentPresenter Content="{TemplateBinding Content}">
-                                        <ContentPresenter.LayoutTransform>
-                                            <RotateTransform Angle="270" />
-                                        </ContentPresenter.LayoutTransform>
-                                    </ContentPresenter>
-                                </DataTemplate>
-                            </Setter.Value>
-                        </Setter>
-                        <Setter Property="Padding" Value="3" />
-                    </Style>
-                </TabControl.Resources>
-                <TabItem Header="General">
-                    <Label Content="Content goes here..." />
-                </TabItem>
-                <TabItem Header="Security" />
-                <TabItem Header="Details" />
-            </TabControl>
+        <Grid.Resources>
+            <Style TargetType="TabControl">
+                <Setter Property="FontSize" Value="22"/>
+            </Style>
+        </Grid.Resources>
+        <TabControl>
+            <TabControl.Resources>
+                <Style TargetType="TabItem">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TabItem">
+                                <Grid Name="Panel">
+                                    <ContentPresenter x:Name="ContentSite"
+                                        VerticalAlignment="Top"
+                                        HorizontalAlignment="Center"
+                                        ContentSource="Header"
+                                        Margin="10,2"/>
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter TargetName="Panel" Property="Background" Value="LightSkyBlue" />
+                                    </Trigger>
+                                    <Trigger Property="IsSelected" Value="False">
+                                        <Setter TargetName="Panel" Property="Background" Value="White" />
+                                    </Trigger>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Panel" Property="Background" Value="LightBlue" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TabControl.Resources>
+            
+            <TabItem Header="Inicio">
+                <DockPanel LastChildFill="False" Background="LightYellow">
+                    <StackPanel Orientation="Vertical" DockPanel.Dock="Top" VerticalAlignment="Center">
+                        <Label Content="Tus productos favoritos de McDonald’s en una app" />
+                        <Label Content="Seleccione una opción en la parte superior" />
+                    </StackPanel>
+                </DockPanel>
+            </TabItem>
 
-            <TabControl>
-                <TabItem Header="General">
-                    <Label Content="En el año 2030, el arquitecto Ted Mosby (Josh Radnor) decide contarles a sus dos hijos la historia de cómo conoció a su madre" />
-                </TabItem>
-                <TabItem Header="Security" />
-                <TabItem Header="Details" />
-            </TabControl>
-        </StackPanel>
+            <TabItem Header="Novedades" HorizontalAlignment="Right">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <!-- Panel de botones a la izquierda -->
+                    <StackPanel HorizontalAlignment="Left" Grid.Column="0">
+                        <Label Content="Seleccione una opción para más información" />
+                        <Button Content="Menú Manuel Turizo" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                        <Button Content="Menú Saiko" Width="250" Margin="10" Click="Menu_Sai" Height="80"/>
+                        <Button Content="McFlurry Milkybar" Width="250" Margin="10" Click="Mcflurry_Mil" Height="80"/>
+                        <Button Content="McDalena Chocolate" Width="250" Margin="10" Click="Mcdalena_Cho" Height="80"/>
+                        <Button Content="Spicy McCrispy" Width="250" Margin="10" Click="Spicy_Mcc" Height="80"/>
+                        <Button Content="McCrispy Original Doble" Width="250" Margin="10" Click="Mccrispy_ori" Height="80"/>
+                    </StackPanel>
+
+                    <StackPanel HorizontalAlignment="Left" Grid.Column="1">
+                        <!-- Texto de descripción a la derecha -->
+                        <TextBlock x:Name="DescriptionTextBlock" HorizontalAlignment="Left" VerticalAlignment="Center" TextWrapping="Wrap" />
+                        <Image x:Name="DescriptionImage" Width="300" Height="300" HorizontalAlignment="Center" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Hamburguesas" HorizontalAlignment="Left">
+                <Grid>
+                    <!-- Definimos dos columnas: una para los botones y otra para la descripción -->
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel HorizontalAlignment="Left" Grid.Column="0">
+                        <Label Content="Seleccione una opción para más información" />
+                        <Button Content="McRoyal Deluxe"  Width="250" Margin="10" Click="Mcroyal_Del" Height="80"/>
+                        <Button Content="Cuarto de Libra Doble"  Width="250" Margin="10" Click="Cuarto_de" Height="80"/>
+                        <Button Content="McPollo"  Width="250" Margin="10" Click="Mcpollo" Height="80"/>
+                        <Button Content="CBO"  Width="250" Margin="10" Click="Cbo" Height="80"/>
+                        <Button Content="McCrispy Original"  Width="250" Margin="10" Click="Mccrispy_ori" Height="80"/>
+                        <Button Content="Spicy McCrispy"  Width="250" Margin="10" Click="Spicy_Mcc" Height="80"/>
+                    </StackPanel>
+                    <StackPanel HorizontalAlignment="Left" Grid.Column="1">
+                        <TextBlock x:Name="DescriptionTextBlock_1" Grid.Column="1" Margin="10" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                        <Image x:Name="DescriptionImage_1" Width="300" Height="300" HorizontalAlignment="Center" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Cafés">
+                <Grid>
+                    <!-- Definimos dos columnas: una para los botones y otra para la descripción -->
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1"/>
+                        <ColumnDefinition Width="1"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel HorizontalAlignment="Left">
+                        <Label Content="Seleccione una opción para más información" />
+                        <Button Content="Mocha Latte" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                        <Button Content="Capuccino" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                        <Button Content="Cafe con leche" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                        <Button Content="Cafe Americano" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                        <Button Content="Té verde" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                        <Button Content="Leche caliente" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    </StackPanel>
+                    <Image Source="img/logo.png" Width="100" Height="100" DockPanel.Dock="Bottom" HorizontalAlignment="Right" Grid.Column="1" Margin="0,613,0,0" />
+                    <TextBlock x:Name="DescriptionTextBlock_2" Grid.Column="1" Margin="10" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Complementos">
+                <StackPanel HorizontalAlignment="Left">
+                    <Label Content="Seleccione una opción" />
+                    <Button Content="Patatas Fritas" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Patatas Deluxe" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="McShaker" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Top Fries Bacon Cheese" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Alitas de pollo" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="ShareBox 25 McNuggets" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Postres">
+                <StackPanel HorizontalAlignment="Left">
+                    <Label Content="Seleccione una opción" />
+                    <Button Content="McFlurry Milkybar" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="McFlurry Lotus" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Apple Pie" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Cono de helado" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Sundae Chocolate" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="ShareBox 25 McNuggets" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Bebidas">
+                <StackPanel HorizontalAlignment="Left">
+                    <Label Content="Seleccione una opción" />
+                    <Button Content="Coca-Cola" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Fanta" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Sprite" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Aquarius" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Lipton" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Agua Mineral" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Ensaladas">
+                <StackPanel HorizontalAlignment="Left">
+                    <Label Content="Seleccione una opción" />
+                    <Button Content="Ensalada Chicken César" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Ensalada César" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Ensalada Chicken Honey" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Ensalada Honey Mustard" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                    <Button Content="Ensalada de la huerta" Width="250" Margin="10" Click="Menu_Man" Height="80"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+        <DockPanel LastChildFill="False">
+            <Image Source="img/logo.png" Width="100" Height="100" DockPanel.Dock="Bottom" HorizontalAlignment="Right" />
+        </DockPanel>
     </Grid>
+
 </Window>

@@ -11,6 +11,21 @@
   <ItemGroup>
     <None Remove=".png" />
     <None Remove="img\fondo.png" />
+    <None Remove="img\logo.png" />
+    <None Remove="img\menu_man.png" />
+    <None Remove="img\menu_sai.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="img\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\menu_man.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\menu_sai.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
